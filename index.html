@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutricionista - Ana Carolina Mendes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Ana Carolina Mendes - Nutricionista</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner principal -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h2>Cuide do seu corpo e da sua saúde com acompanhamento profissional</h2>
+            <p>Personalização e cuidado em cada consulta para garantir o seu bem-estar.</p>
+            <button onclick="scrollToSection('contact')">Agende sua consulta</button>
+        </div>
+        <img src="images/alimentacao-saudavel-cardapio.jpg" alt="Imagem de capa de nutrição" class="hero-image">
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <img src="images/anotando.jpeg" alt="Avaliação Nutricional">
+                    <h3>Avaliação Nutricional</h3>
+                    <p>Avaliação detalhada para entender melhor suas necessidades.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/orientando_1_idosa.jpeg" alt="Consultoria Alimentar">
+                    <h3>Consultoria Alimentar</h3>
+                    <p>Orientação para uma alimentação mais saudável e balanceada.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/orientando_2_idosas.jpeg" alt="Planejamento para Emagrecimento">
+                    <h3>Planejamento para Emagrecimento</h3>
+                    <p>Estratégias personalizadas para alcançar seus objetivos de peso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre a Nutricionista</h2>
+            <div class="about-content">
+                <img src="images/anotando.jpeg" alt="Foto da Nutricionista" class="about-image">
+                <p>Ana Carolina Mendes é uma nutricionista altamente dedicada, com ampla experiência em ajudar pessoas a adotarem hábitos alimentares saudáveis e personalizados, ajustados às necessidades individuais de cada paciente. Seu trabalho é guiado por um compromisso genuíno com o bem-estar e a qualidade de vida, oferecendo abordagens nutricionais que vão além de dietas temporárias, promovendo mudanças sustentáveis e eficazes. Com uma visão que integra saúde física e emocional, Ana Carolina acompanha cada paciente em uma jornada personalizada e cuidadosa, onde o objetivo é conquistar resultados duradouros e transformar a relação com a alimentação em um caminho positivo e prazeroso.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Depoimentos -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Depoimentos</h2>
+            <div class="testimonial-list">
+                <div class="testimonial-item">
+                    <p>"Carol me ajudou a melhorar minha relação com a comida e a alcançar meus objetivos de forma saudável e sustentável!"</p>
+                    <span>- Cliente A</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>"O atendimento é impecável e personalizado, realmente se preocupa com o bem-estar dos seus pacientes."</p>
+                    <span>- Cliente B</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form id="contactForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2023 Ana Carolina Mendes - Nutricionista. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
